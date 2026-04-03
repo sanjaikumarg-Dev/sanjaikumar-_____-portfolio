@@ -1,0 +1,197 @@
+<!-- header section -->
+<div>
+  <nav id="desktop-nav">
+    <div class="logo">Sanjaikumar Gunasekaran</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Sanjaikumar Gunasekaran</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <!-- profile section -->
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="../assets/my-img1.png" alt="sanjai profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Sanjaikumar Gunasekaran</h1>
+      <p class="section__text__p2">Angular Frontend Developer</p>
+      <div class="btn-container">
+        <a href="../assets/my __cv.docx" download>
+          <button class="btn btn-color-2">Resume</button>
+        </a>
+        <a href="#contact">
+          <button class="btn btn-color-2">Contact</button>
+        </a>
+      </div>
+      <div id="socials-container">
+        <img src="../assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://linkedin.com/'" />
+        <img src="../assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/'" />
+      </div>
+    </div>
+  </section>
+  <!-- about section -->
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="../assets/experience.png" alt="" class="icon" />
+            <h3>Experience</h3>
+            <p>1+ years <br />Frontend Development</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="" class="icon" />
+            <h3>Education</h3>
+            <p>B.A. Bachelor Degree<br />M.B.A. Master Degree</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            I completed my [ Master of Business Administration ] in [Sytem Management] from [
+            Bharathidasn University/Meenakshi Ramasamy Arts and Science collge], Frontend Developer with 1.5+ years of
+            professional experience in building scalable, responsive web applications using Angular, TypeScript, and
+            RxJS. Strong expertise in component-based architecture, authentication using JWT, route protection, and REST
+            API integration. Passionate about writing clean, maintainable code and collaborating in agile teams to
+            deliver high-quality user experiences!!!
+          </p>
+        </div>
+      </div>
+      <div>
+        <img src="../assets/my-img2.png" alt="Profile picture" class="about-pic" />
+      </div>
+    </div>
+    <img src="../assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  <!-- experience section -->
+  <section id="experience">
+    <p class="section__text__p1">Explore My Skill</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="../assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+              </div>
+            </article>
+            <article>
+              <img src="../assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+              </div>
+            </article>
+            <article>
+              <img src="../assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>SASS</h3>
+              </div>
+            </article>
+            <article>
+              <img src="../assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+              </div>
+            </article>
+            <article>
+              <img src="../assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>TypeScript</h3>
+              </div>
+            </article>
+          </div>
+          <div class="article-container">
+            <article>
+              <img src="../assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Angular</h3>
+              </div>
+            </article>
+            <article>
+              <img src="../assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Rxjs</h3>
+              </div>
+            </article>
+            <article>
+              <img src="../assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Node.js</h3>
+              </div>
+            </article>
+            <article>
+              <img src="../assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Bootstrap</h3>
+              </div>
+            </article>
+            <article>
+              <img src="../assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="../assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <!-- contact section -->
+  <section id="contact">
+    <p class="section__text__p1">See Also</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="../assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:examplemail@gmail.com">sanjaikumar.g4607@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="../assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="../assets/phone.png" alt="Mobile icon" class="icon contact-icon " />
+        <p><a href="tel:+91 9360805873">Mobile</a></p>
+      </div>
+    </div>
+  </section>
+  <!-- footer section -->
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Thank you for visiting my portfolio. Designed and developed with care by Sanjai Kumar!</p>
+  </footer>
+</div>
